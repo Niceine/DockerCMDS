@@ -1,0 +1,6 @@
+echo ''
+echo 'Command                                                 Description'
+echo '------------------------------------------------------'
+echo 'docker ps -a                                           see all containers and their current status'
+echo 'systemctl restart docker                               restart docker daemon'
+echo 'docker run -d -p80:80 testapache --name testapache     run detached, testapache image'
